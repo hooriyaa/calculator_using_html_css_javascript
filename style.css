@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -24,9 +24,7 @@ body, html {
   align-items: center;
   background-color: #e3f9ff;
   padding: 10px;
-
 }
-
 
 .calculator {
   border: 1px solid #717377;
@@ -43,8 +41,8 @@ body, html {
 
 input {
   border: none;
-  width: 70%;
-  margin: 10px ;
+  width: 100%;
+  margin: 10px 0;
   padding: 15px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: inset 0px 3px 15px rgba(84, 84, 84, 0.1);
@@ -77,7 +75,7 @@ button {
   font-size: 20px;
   box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.3);
   cursor: pointer;
- 
+  transition: background 0.3s ease;
 }
 
 button:hover {
