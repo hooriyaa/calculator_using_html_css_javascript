@@ -32,7 +32,7 @@ body, html {
 input {
   border: none;
   width: 100%; /* Take up full width of its container */
-  max-width: 300px; /* Limit maximum width for larger screens */
+  max-width: 280px; /* Limit maximum width for larger screens */
   margin: 10px 0;
   padding: 12px;
   background: rgba(255, 255, 255, 0.1);
@@ -113,6 +113,7 @@ button:hover {
   input {
     font-size: 14px;
     padding: 8px;
+    max-width: 240px; /* Adjusted max-width for smaller screens */
   }
 
   button {
