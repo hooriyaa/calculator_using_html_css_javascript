@@ -116,9 +116,14 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-  .full {
+  body, html {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .full {
+    padding: 0;
   }
 
   .calculator {
