@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-* {
+*{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -23,8 +23,10 @@ body, html {
   justify-content: center;
   align-items: center;
   background-color: #e3f9ff;
-  padding: 100px;
+  padding: 10px;
+
 }
+
 
 .calculator {
   border: 1px solid #717377;
