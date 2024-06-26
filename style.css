@@ -43,7 +43,7 @@ input {
   border: none;
   width: 100%;
   margin: 10px 0;
-  padding: 15px;
+  padding: 10px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: inset 0px 3px 15px rgba(84, 84, 84, 0.1);
   font-size: 24px;
@@ -103,8 +103,8 @@ button:hover {
   }
 
   input {
-    font-size: 20px;
-    padding: 12px;
+    font-size: 18px;
+    padding: 8px;
   }
 
   button {
@@ -132,8 +132,8 @@ button:hover {
   }
 
   input {
-    font-size: 18px;
-    padding: 10px;
+    font-size: 16px;
+    padding: 6px;
   }
 
   .button-row {
