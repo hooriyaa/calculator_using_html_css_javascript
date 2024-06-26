@@ -41,12 +41,13 @@ body, html {
 
 input {
   border: none;
-  width: 100%;
+  width: calc(100% - 20px); /* Adjusted width to leave space for padding */
+  max-width: 300px; /* Limiting maximum width for larger screens */
   margin: 10px 0;
-  padding: 10px;
+  padding: 12px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: inset 0px 3px 15px rgba(84, 84, 84, 0.1);
-  font-size: 24px;
+  font-size: 20px;
   text-align: right;
   cursor: pointer;
   color: #ffffff;
@@ -61,7 +62,7 @@ input::placeholder {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  margin: 5px 0;
+  margin: 10px 0; /* Increased margin for better spacing */
 }
 
 button {
@@ -104,7 +105,7 @@ button:hover {
 
   input {
     font-size: 18px;
-    padding: 8px;
+    padding: 10px;
   }
 
   button {
@@ -133,7 +134,7 @@ button:hover {
 
   input {
     font-size: 16px;
-    padding: 6px;
+    padding: 8px;
   }
 
   .button-row {
